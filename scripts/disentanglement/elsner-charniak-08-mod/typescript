@@ -1,0 +1,506 @@
+Script started on Thu Nov 16 13:43:48 2017
+[?1034hbash-3.2$ hisotr[K[K[Ktory
+    2  ls
+    3  vi create_so_slack_dataset.py 
+    4  ls
+    5  cp create_so_slack_dataset.py count_unanswered_question.py
+    6  mv count_unanswered_question.py count_unanswered_questions.py
+    7  cd ../taz
+    8  cd ../lda-on-slack/
+    9  ls
+   10  cd data/
+   11  rm -fR stackoverflow/
+   12  cd ..
+   13  python3 count_unanswered_questions.py data/python/merged-pythondev-help.xml_person_with_timeout_5mins.txt
+   14  python count_unanswered_questions.py 
+   15  python3 count_unanswered_questions.py 
+   16  python3 count_unanswered_questions.py 
+   17  python3 count_unanswered_questions.py data/python/merged-pythondev-help.xml_person_with_timeout_5mins.txt
+   18  vi data/python/merged-pythondev-help.xml_person_with_timeout_5mins.txt
+   19  ls
+   20  mv ~/Downloads/merged-pythondev-help.xml_person_with_timeout_5mins.txt .
+   21  vi merged-pythondev-help.xml_person_with_timeout_5mins.txt 
+   22  rm merged-pythondev-help.xml_person_with_timeout_5mins.txt 
+   23  mv ~/Downloads/pythondev_timwd_300.txt 
+   24  mv ~/Downloads/pythondev_timwd_300.txt .
+   25  vi pythondev_timwd_300.txt 
+   26  cd ..
+   27  ls
+   28  cd taz
+   29  ls
+   30  mkdir for_nsf_proposal
+   31  cd for_nsf_proposal/
+   32  cp ~/Downloads/ParseSlack.py .
+   33  mv ~/Downloads/ParseSlack.py .
+   34  ls
+   35  mv ../../lda-on-slack/count_unanswered_questions.py .
+   36  rm ../../lda-on-slack/pythondev_timwd_300.txt 
+   37  ls
+   38  mv ParseSlack.py parse_slack.py
+   39  ls
+   40  mkdir data
+   41  mv ~/Downloads/merged-pythondev-help.xml data/.
+   42  python3 parse_slack.py data/
+   43  ls data/
+   44  ls
+   45  vi merged-pythondev-help/merged-pythondev-help_timwd_300.txt 
+   46  vi parse_slack.py 
+   47  python3 parse_slack.py data/
+   48  vi merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   49  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   50  vi merged-pythondev-help/merged-pythondev-helptimestamp_metadata.txt 
+   51  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   52  vi merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   53  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   54  vi merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   55  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   56  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   57  vi merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   58  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   59  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   60  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   61  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   62  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   63  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   64  vi merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   65  vi merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   66  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   67  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   68  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   69  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   70  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   71  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   72  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   73  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   74  vi merged-pythondev-help/merged-pythondev-helptimestamp_metadata.txt 
+   75  ls
+   76  rm -fR merged-pythondev-help/
+   77  python3 parse_slack.py data/merged-pythondev-help.xml 
+   78  ls
+   79  ls
+   80  ls
+   81  python3 parse_slack.py data/merged-pythondev-help.xml 
+   82  ls
+   83  ls 
+   84  python3 parse_slack.py data/merged-pythondev-help.xml 
+   85  vi data/merged-pythondev-help.xml 
+   86  python3 parse_slack.py data/merged-pythondev-help.xml 
+   87  ls
+   88  history | grep parse
+   89  python3 parse_slack.py data
+   90  vi merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   91  vi merged-pythondev-help/merged-pythondev-helptimestamp_metadata.txt 
+   92  python3 parse_slack.py data/merged-pythondev-help.xml 
+   93  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   94  vi ../count-slack-snippets.py 
+   95  vi ../count-slack-snippets.py 
+   96  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   97  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   98  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+   99  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+  100  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+  101  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+  102  ls
+  103  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+  104  vi merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+  105  ls
+  106  mv ~/Downloads/drive-download-20171105T203255Z-001.zip .
+  107  unzip drive-download-20171105T203255Z-001.zip 
+  108  mv merged-* data/.
+  109  ls
+  110  python3 parse_slack.py data/merged-elmlang-general.xml 
+  111  ls
+  112  python3 parse_slack.py data
+  113  ls
+  114  rm -fR data/merged-pythondev-help/
+  115  ls
+  116  rm drive-download-20171105T203255Z-001.zip 
+  117  ls
+  118  ls data/
+  119  python3 parse_slack.py data
+  120  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+  121  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+  122  clear
+  123  python3 count_unanswered_questions.py merged-pythondev-help/merged-pythondev-help_timwd_600.txt 
+  124  python3 count_unanswered_questions.py merged-clojurians-clojure/merged-clojurians-clojure_timwd_600.txt 
+  125  python3 count_unanswered_questions.py merged-clojurians-clojure/merged-clojurians-clojure_timwd_600.txt 
+  126  python3 count_unanswered_questions.py merged-elmlang-general/merged-elmlang-general_timwd_600.txt 
+  127  python3 count_unanswered_questions.py merged-elmlang-beginners/merged-elmlang-beginners_timwd_600.txt 
+  128  make
+  129  cd 
+  130  cd classes/
+  131  ls
+  132  cd ~/research/taz
+  133  ls
+  134  cd for_nsf_proposal/
+  135  ls
+  136  cd 
+  137  ls
+  138  cd papers/2017/stack-intheflow-paper/
+  139  ls
+  140  make 
+  141  make
+  142  make
+  143  make
+  144  make
+  145  make
+  146  make
+  147  make
+  148  make
+  149  make
+  150  make
+  151  make
+  152  make
+  153  make
+  154  make
+  155  make
+  156  make
+  157  vi sec_intro.tex 
+  158  vi stackintheflow.bib 
+  159  cd 
+  160  cd proposals/KDHC/
+  161  ls
+  162  cd iuse/2017/
+  163  ls
+  164  make
+  165  ls
+  166  cp NSFmaster.pdf ~/Dropbox/.
+  167  ls
+  168  cd 
+  169  cd classes/CMSC355-SoftwareEngineering/
+  170  ls
+  171  cd fall2017/
+  172  ls
+  173  cd lectures/
+  174  ls
+  175  cp ../../fall2016/lectures/lecture23-codereviews.key lecture24-codereviews.key
+  176  ls
+  177  cd ../midterm/
+  178  ls
+  179  mkdir open-closed
+  180  cd open-closed/
+  181  cp ../midterm.tex open-closed.tex
+  182  cd ..
+  183  rm -fR open-closed/
+  184  cd ..
+  185  ls
+  186  cd in-class/
+  187  cp -R 10-cleancode X-open-closed
+  188  cd X-open-closed/
+  189  ls
+  190  make clean
+  191  vi Makefile 
+  192  ls
+  193  cat Makefile 
+  194  mv 10-cleancode.tex X-open-closed.tex
+  195  vi test.java
+  196  vi LogWriter.java
+  197  javac LogWriter.java 
+  198  javac LogWriter.java 
+  199  javac LogWriter.java 
+  200  java LogWriter.java
+  201  javac LogWriter.java 
+  202  javac LogWriter.java 
+  203  javac LogWriter.java 
+  204  javac LogWriter.java 
+  205  javac LogWriter.java 
+  206  java LogWriter.java
+  207  java LogWriter
+  208  make
+  209  make
+  210  make
+  211  make
+  212  cp X-open-closed.pdf ../../web/cmsc355/in-class/.
+  213  ls
+  214  cd ..
+  215  cd ../web/cmsc355/
+  216  ls
+  217  mv ~/Downloads/lecture24-codereviews.pdf lectures/.
+  218  ls in-class/X-open-closed.pdf 
+  219  cd 
+  220  cd papers/2017/stack-intheflow-paper/
+  221  ls
+  222  make
+  223  cp paper.pdf ~/Dropbox/.
+  224  make
+  225  ls
+  226  make
+  227  vi Makefile 
+  228  ls
+  229  make clean
+  230  make
+  231  bibtex paper.tex 
+  232  bibtex stackintheflow.bib 
+  233  bibtex paper
+  234  ls
+  235  vi paper.tex 
+  236  ls
+  237  vi .gitignore 
+  238  ls
+  239  vi Makefile 
+  240  make
+  241  make clean
+  242  make
+  243  make
+  244  ls
+  245  make clean
+  246  make
+  247  jupyter notebook
+  248  jupyter notebook
+  249  ls
+  250  ssh 04.131.188.205
+  251  ssh 104.131.188.205
+  252  exit
+  253  ssh 104.131.188.205
+  254  ssh 104.131.188.205
+  255  ssh 104.131.188.205
+  256  exit
+  257  exit
+  258  make
+  259  pwd
+  260  cd ../../
+  261  cd ../nsf-proposallpkd2017/
+  262  ls
+  263  vi proposal\ description/intro.tex 
+  264  make
+  265  ls
+  266  cd proposal\ description/
+  267  make
+  268  vi motivation.tex 
+  269  make
+  270  vi motivation.tex 
+  271  make
+  272  make
+  273  make
+  274  make
+  275  make
+  276  make
+  277  make
+  278  make
+  279  make
+  280  make
+  281  make
+  282  cp proposal.pdf ~/Dropbox/.
+  283  vi proposal.tex 
+  284  vi proposal.tex 
+  285  make
+  286  cp proposal.pdf ~/Dropbox/.
+  287  make
+  288  vi intro.tex 
+  289  make
+  290  make
+  291  cp proposal.pdf ~/Dropbox/.
+  292  make
+  293  make
+  294  make
+  295  vi ~/Downloads/sage_hpcc20_163.bib 
+  296  make
+  297  cd
+  298  cl
+  299  cd ~/research/taz
+  300  ls
+  301  cd lda-on-slack/
+  302  ls
+  303  ls notebooks/
+  304  cd ..
+  305  ls
+  306  ls Preetha/
+  307  ls Preetha/Preprocessing/Scripts/__pycache__/
+  308  ls
+  309  ls
+  310  cd ..
+  311  ls
+  312  cd lda-on-slack/
+  313  ls
+  314  cd ..
+  315  ls
+  316  ls for_nsf_proposal/
+  317  ls
+  318  mv for_nsf_proposal lda-on-slack/.
+  319  cd taz
+  320  ls
+  321  cd ../lda-on-slack/
+  322  s
+  323  ls
+  324  mkdir disentaglement
+  325  cd disentaglement/
+  326  ls
+  327  mv ~/Downloads/chat-distr.tgz 
+  328  mv ~/Downloads/chat-distr.tgz .
+  329  tar -xzvf chat-distr.tgz 
+  330  ls
+  331  cd chat-distr
+  332  ls
+  333  ls IRC/
+  334  vi IRC/linux.txt 
+  335  cd ..
+  336  ls
+  337  mv ~/Downloads/preprocessChat.py .
+  338  mv ~/Downloads/names.txt .
+  339  ls
+  340  cat preprocessChat.py 
+  341  ls
+  342  cd ../data/
+  343  ls
+  344  cd python/
+  345  ls
+  346  ls ..
+  347  cd ..
+  348  ls
+  349  cd ..
+  350  ls
+  351  ls -l
+  352  cd data/
+  353  ls
+  354  cd python/
+  355  ls
+  356  mv ~/Downloads/merged-pythondev-help.xml .
+  357  ls
+  358  cd ../../disentaglement/
+  359  python3 preprocessChat.py ../data/python/merged-pythondev-help.xml
+  360  ls
+  361  vi preprocessChat.py 
+  362  vi names.txt 
+  363  vi preprocessChat.py 
+  364  ls
+  365  vi chat-distr/data/linux-unigrams.dump 
+  366  vi chat-distr/data/techwords.dump 
+  367  vi preprocessChat.py 
+  368  ls
+  369  cp ../../taz/Preetha/Preprocessing/Scripts/remove_code.py .
+  370  ls
+  371  vi remove_code.py 
+  372  vi remove_code.py 
+  373  vi preprocessChat.py 
+  374  vi remove_code.py 
+  375  rm remove_code.py 
+  376  vi preprocessChat.py 
+  377  python3 preprocessChat.py ../data/python/merged-pythondev-help.xml
+  378  python3 preprocessChat.py ../data/python/merged-pythondev-help.xml
+  379  python3 preprocessChat.py ../data/python/merged-pythondev-help.xml > pythondev-processed.txt
+  380  ls
+  381  python3 chat-distr/model/unigramStats.py pythondev-processed.txt 
+  382  python3 chat-distr/model/unigramStats.py pythondev-processed.txt unigram_stats.txt
+  383  cd chat-distr
+  384  ls
+  385  mv ../pythondev-processed.txt .
+  386  ls
+  387  python3 model/unigramStats.py pythondev-processed.txt unigram_stats.txt
+  388  python model/unigramStats.py pythondev-processed.txt unigram_stats.txt
+  389  ls
+  390  ls
+  391  ls analysis/
+  392  cd model/
+  393  ls
+  394  python unigramStats.py ../pythondev-processed.txt ../unigram_stats.txt
+  395  cd ..
+  396  ls
+  397  cd ..
+  398  python3 model/unigramStats.py pythondev-processed.txt unigram_stats.txt
+  399  cd chat-distr
+  400  python3 model/unigramStats.py pythondev-processed.txt unigram_stats.txt
+  401  echo $PYTHONPATH
+  402  cd ..
+  403  ls
+  404  ls
+  405  vi local.bashrc
+  406  source local.bashrc 
+  407  ls
+  408  vi local.bashrc
+  409  source local.bashrc 
+  410  cd chat-distr
+  411  python3 model/unigramStats.py pythondev-processed.txt unigram_stats.txt
+  412  echo $PYTHONPATH
+  413  pwd
+  414  vi ../local.bashrc 
+  415  source ../local.bashrc 
+  416  python3 model/unigramStats.py pythondev-processed.txt unigram_stats.txt
+  417  ls
+  418  vi ../local.bashrc 
+  419  source ../local.bashrc 
+  420  python3 model/unigramStats.py pythondev-processed.txt unigram_stats.txt
+  421  python model/unigramStats.py pythondev-processed.txt unigram_stats.txt
+  422  ls
+  423  cd ..
+  424  ls
+  425  vi local.bashrc 
+  426  mv ~/Downloads/aima-python.zip .
+  427  pip
+  428  which pip
+  429  which pip3
+  430  ls
+  431  unzip aima-python.zip 
+  432  ls
+  433  mkdir aima
+  434  mv python/ aima/.
+  435  ls
+  436  mv aima-python.zip aima/.
+  437  ls
+  438  ls aima/
+  439  ls
+  440  pwd
+  441  vi local.bashrc 
+  442  source local.bashrc 
+  443  ls
+  444  ls
+  445  cd preprocessChat.py 
+  446  cd chat-distr
+  447  python model/unigramStats.py pythondev-processed.txt unigram_stats.txt
+  448  vi ../aima/python/readme.html 
+  449  ls ../aima/python/utils.py 
+  450  ls
+  451  cd ..
+  452  ls
+  453  rm -fR aima
+  454  ls
+  455  cd chat-distr
+  456  vi ../local.bashrc 
+  457  source ../local.bashrc 
+  458  python model/unigramStats.py pythondev-processed.txt unigram_stats.txt
+  459  vi analysis/chatStats.py
+  460  ls
+  461  ls
+  462  ls -l
+  463  vi ../local.bashrc 
+  464  source ../local.bashrc 
+  465  python model/unigramStats.py pythondev-processed.txt unigram_stats.txt
+  466  vi pythondev-processed.txt 
+  467  vi analysis/chatStats.py
+  468  cd ..
+  469  ls
+  470  vi preprocessChat.py 
+  471  vi ../../taz/Preetha/Preprocessing/Scripts/remove_punctuation.py 
+  472  vi preprocessChat.py 
+  473  vi ../../taz/Preetha/Preprocessing/Scripts/remove_punctuation.py 
+  474  history | grep preprocessChat
+  475  python3 preprocessChat.py ../data/python/merged-pythondev-help.xml > pythondev-processed.txt
+  476  python3 preprocessChat.py ../data/python/merged-pythondev-help.xml > pythondev-processed.txt
+  477  vi ../../taz/Preetha/Preprocessing/Scripts/remove_punctuation.py 
+  478  vi ../../taz/Preetha/Preprocessing/Scripts/remove_punctuation.py 
+  479  python3 preprocessChat.py ../data/python/merged-pythondev-help.xml > pythondev-processed.txt
+  480  python3 preprocessChat.py ../data/python/merged-pythondev-help.xml > pythondev-processed.txt
+  481  ls
+  482  cd ..
+  483  cd disentaglement/
+  484  ls
+  485  cd chat-distr
+  486  ls
+  487  mv ../pythondev-processed.txt .
+  488  vi pythondev-processed.txt 
+  489  python model/unigramStats.py pythondev-processed.txt unigram_stats.txt
+  490  python -i model/unigramStats.py pythondev-processed.txt unigram_stats.txt
+  491  exit
+  492  pwd
+  493  rm -fR scratch
+  494  python model/classifierTest.py IRC/dev/linux-dev-0X.annot IRC/pilot/linux-pilot-0X.annot data/linux-unigrams.dump data/techwords.dump scratch
+  495  python model/classifierPrecRec.py scratch/129
+  496  python model/greedy.py IRC/linux-rest.txt scratch/129/predictions scratch/129/keys
+  497  pwd
+  498  python model/classifierTest.py IRC/dev/linux-dev-0X.annot IRC/pilot/linux-pilot-0X.annot data/linux-unigrams.dump data/techwords.dump scratch
+  499  python model/classifierPrecRec.py scratch/129
+  500  python model/greedy.py IRC/linux-rest.txt scratch/129/predictions scratch/129/keys
+  501  history
+bash-3.2$ exit
+exit
+
+Script done on Thu Nov 16 14:01:17 2017

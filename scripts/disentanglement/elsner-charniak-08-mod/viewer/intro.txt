@@ -1,0 +1,44 @@
+3000 Intro : Hi.
+3001 Intro : Thanks for participating in this (pilot) conversation understanding experiment.
+3002 Intro : Your task will be to annotate text from an internet chat room, by assigning each line to a conversation.
+3003 Intro : We mean conversation in the typical sense: a discussion in which the participants are all reacting and paying attention to one another.
+3004 Intro : Of course, there can be changes of subject, and short digressions along the way.
+3005 Intro : But it should be clear that the comments inside a conversation fit together.
+3007 Intro : Some cases may be ambiguous; you should use your judgement and your intuitive understanding of what 'conversation' means.
+3008 Format : I'll explain the data you're looking at.
+3010 Format : Each line has three parts.
+3050 Format : On the far left is the number of seconds since the last message.
+3055 Format : For instance, this is 5 seconds after the previous line, which was 40 seconds after the one before.
+3056 Format : Next comes the name of the speaker.
+3057 Format : So far there are two speakers, 'Intro' and 'Format'.
+3058 Newguy : Speakers usually have different colors.
+3059 Format : Finally there's the comment (this text).
+3060 Format : Some comments are in the third person. These appear slightly differently (no colon after the speaker name).
+3061 Speaker *  makes a third-person comment.
+3062 Format : Third-person comments need to be annotated just like first-person comments.
+3063 Format : Some third person comments are messages from the system.
+3064 Format : These get a gray background, and you don't need to annotate them.
+3065 Format *  left the room.
+3066 Format *  entered the room.
+3067 Format : For privacy reasons, the data you will look at is anonymized.
+3068 Format : Sometimes the anonymizer doesn't work correctly, because people misspell or abbreviate the names other people are using.
+3069 Format : If you see a name you don't recognize in a comment, you can try to guess from context who it belongs to, or just ignore it.
+3070 Format : Don't use the genders of the names as a guide! They are randomly assigned by the anonymizer.
+3165 Tutorial : Here's how to use the annotation tool.
+3165 Tutorial : To mark this sentence as the start of a conversation, highlight this sentence (click, or use the arrows) and press 'n' (or click the "New Thread" button). Do this now.
+3166 Tutorial : You can see the previous sentence is part of a conversation now, because it has a colored background (dark green, in this case). It also appears in the viewing window on the right.
+3167 Tutorial : Start a new conversation by pressing 'n' again. This one will be brown, and you can see that it is now in the viewing window instead.
+3168 Tutorial : To add this sentence to the new conversation, click on it and drag it over the line just above. It should turn brown and appear in the viewing window.
+3172 Tutorial : Drag this line over the green sentence to add it to the green conversation.
+3175 Tutorial : By the way, you can't annotate the system lines no matter how hard you try. Drag the next sentence onto an annotated line -- nothing will happen.
+3176 Newguy *  left the room.
+3185 Tutorial : If you think you've made a mistake, you can clear the annotation for a sentence by highlighting the sentence and pressing the "Unannotate" button (or type 'u'). Try this now: add this line to the brown conversation, then clear it.
+3186 Tutorial : Alternately, just highlight the sentence again and drag it somewhere else. Add this line to the brown conversation, then move it to the green one.
+3187 Tutorial : The system has a limited number of colors, so after a while they may start to repeat. If this happens, keep an eye on the viewing window on the right to make sure you're doing the right thing.
+3188 Tutorial : To save your work, choose the 'save' option from the file menu.
+3189 Tutorial : If you have any questions about the software, please ask now.
+3190 Tutorial : Good luck!
+4000 Instructions : Now you can begin work on real data.
+4010 Instructions : Please mark *every* comment as part of a conversation.
+4020 Instructions : If a line doesn't seem to be part of any conversation, create a new conversation, even if it's only one line long.
+4030 Instructions : Thanks again for your help.
