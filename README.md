@@ -10,7 +10,7 @@ This repository contains Slack Q&A style conversations and code for disentanglin
 Numerous public Slack chat channels (https://slack.com/) have recently become available that are focused on specific software engineering-related discussion topics, e.g., Python Development (https://pyslackers.com/web/slack). We call the channels in which participants are asking and answering questions, Slack Q&A channels.  The channels are advertised on the Web and allow anyone to join, with a joining process only requiring the participant to create a username (any unique string) and a password. Once joined, on these channels, participants can ask or answer any question, as long as it pertains to the main topic (e.g., programming in Python).  
 
 #### Data Collection Process: 
-For our research, we collect data in the form of whole conversations from several technology communities that are focused on getting help and learning about software-related topics, specifically on using the following technologies: python, clojure, and elm. To gather and store the conversations from each of the targeted Slack Q&A channels, we asked for permission from the channel administrators by sending them a direct message via the Slack platform stating who we are and our purpose (i.e., software engineering research). Those administrators who agreed then granted us a special Slack token, which we use to collect the daily channel activity. 
+For our research, we collect data in the form of whole conversations from several technology communities that are focused on getting help and learning about software-related topics, specifically on using the following technologies: python, clojure, elm, and racket. To gather and store the conversations from each of the targeted Slack Q&A channels, we asked for permission from the channel administrators by sending them a direct message via the Slack platform stating who we are and our purpose (i.e., software engineering research). Those administrators who agreed then granted us a special Slack token, which we use to collect the daily channel activity. 
 
 ## Data Format
 
@@ -39,7 +39,7 @@ The Slack data is in XML format, with three attributes for each message: timesta
   </message>
 ```
 
-Our dataset consists of approximately two years of activity between mid 2017 (varies slightly by channel) and mid 2019 (June 6th, 2019) from 4 Slack channels (_pythondev-help_, _clojurians-clojure_, _elmlang-beginners_, and _elmlang-general_), representing 3 Slack communities (_clojurians_, _pythondev_ , and _elmlang_):
+Our dataset consists of approximately two years of activity between mid 2017 (varies slightly by channel) and mid 2019 (June 6th, 2019) from 5 Slack channels (_pythondev-help_, _clojurians-clojure_, _elmlang-beginners_, _elmlang-general_, and _racket-general_), representing 4 Slack communities (_clojurians_, _pythondev_, _elmlang_, and _racket_):
 
 ```
 data
@@ -53,6 +53,8 @@ data
 +-- pythondev
 |   +-- ...
 +-- elmlang
+|   +-- ...
++-- racket
 |   +-- ...
 ```
 
