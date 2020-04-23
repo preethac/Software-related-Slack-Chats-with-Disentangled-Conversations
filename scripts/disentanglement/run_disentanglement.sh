@@ -11,7 +11,10 @@ inputs=( ../../data/pythondev/2017/merged-pythondev-help.xml \
 ../../data/elmlang/2019/merged-elmlang-general.xml \
 ../../data/elmlang/2017/merged-elmlang-beginners.xml \
 ../../data/elmlang/2018/merged-elmlang-beginners.xml \
-../../data/elmlang/2019/merged-elmlang-beginners.xml
+../../data/elmlang/2019/merged-elmlang-beginners.xml \
+../../data/racket/2017/merged-racket-general.xml \
+../../data/racket/2018/merged-racket-general.xml \
+../../data/racket/2019/merged-racket-general.xml
 )
 
 #in_unigrams='elsner-charniak-08-mod/data/linux-unigrams.dump'
